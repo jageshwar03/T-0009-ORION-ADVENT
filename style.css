@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: azure;
+}
+ html,body{
+    height: 100%;
+    width: 100%;
+ }
+ main{
+    height: 100%;
+    width: 100%;
+ }
+
+nav{
+ height: 20vh;
+ width: 100vw;
+}
+
+ .top_nav{
+ height: 7vh;
+ width: 100vw;
+ background-color: #33989C;
+ display: flex;
+ }
+ .top_nav_left{
+  height: 100%;
+  width: 50%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+ }
+ .top_nav_left a{
+   position: absolute;
+   left: 150px;
+   font-size: 17px;
+   text-decoration: none;
+ }
+.top_nav_right{
+      height: 100%;
+      width: 50%;
+      /* background-color: darkblue; */
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      gap: 20px;
+      padding-right: 120px;
+ }
+ .top_nav_right a{
+   text-decoration: none;
+ }
+  .top_nav_right a .ri-whatsapp-line{
+   font-size: 21px;
+ }
+ .top_nav_right a .ri-facebook-circle-fill{
+   font-size: 27px;
+   color: #000000;
+ }
+  .top_nav_right a .ri-instagram-line{
+   font-size: 25px;
+   color: rgb(255, 110, 7);
+ }
+  .top_nav_right a .ri-linkedin-box-fill{
+   font-size: 25px;
+   color: #090f12;
+ }
+  .top_nav_right a .ri-twitter-x-line{
+   font-size: 25px;
+   color: black;
+ }
+ .bottum_nav{
+ height: 13vh;
+ width: 100vw;
+ background:#FFFFFF;
+ /* background-color: red; */
+ display: flex;
+ }
+
+ .bottum_nav_left{
+height: 100%;
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: start;
+padding-left: 140px;
+ }
+ .bottum_nav_left img{
+height: 60px;
+width: 200px;
+ }
+
+  .bottum_nav_right{
+   height: 100%;
+   width: 50%;
+   /* background-color: blue; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 38px;
+   padding-right: 100px;
+ }
+  .bottum_nav_right h6{
+   color: #000000;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+
+
+ .bottum_nav_right #booknow{
+  color: #090f12;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-radius: 5px;
+  border: none;
+  background-color: chocolate;
+ }
+ #booknow .ri-arrow-right-line{
+  color: black;
+ }
