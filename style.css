@@ -122,3 +122,42 @@ width: 200px;
  #booknow .ri-arrow-right-line{
   color: black;
  }
+
+
+ /* nav  css end here heder css start here */
+.swiper {
+  width: 100%;
+  height: 100vh;
+  /* border-radius: 15px; */
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.swiper-slide {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.swiper-slide img{
+/* height: 500px;
+width: 500px; */
+object-fit: cover;
+object-position: center;
+}
+.swiper-slide {
+
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+ .swiper-slider_1{
+  background-image: url(./IMAGES/slider-mainbg-01.png);
+ }
+.swiper-slider_2{
+  background-image: url(./IMAGES/slider-mainbg-02.png);
+}
+ .swiper-slider_3{
+  background-image: url(./IMAGES/slider-mainbg-03.png);
+ }

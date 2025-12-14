@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orion Advent</title>
+
+    <!-- Swiper CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"rel="stylesheet"/> -->
+
+    <!-- External CSS -->
+
     <link rel="stylesheet" href="style.css">
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+
+
 </head>
 <body>
     <main>
@@ -41,7 +47,21 @@
 
          <!-- nav end here -->
 
-         <header class="slider"></header>
+         <!-- Slider Main Container -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide swiper-slider_1 "><img src="./IMAGES/logo.png" alt=""></div>
+      <div class="swiper-slide swiper-slider_2"><h1>slider 2</h1></div>
+      <div class="swiper-slide swiper-slider_3"><h1>slider3</h1></div>
+      
+    </div>
+
+    <!-- Pagination and Navigation -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
 
           <!-- header end here -->
 
@@ -87,5 +107,9 @@
            <!-- end footer -->
 
     </main>
+    <!-- Swiper JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
