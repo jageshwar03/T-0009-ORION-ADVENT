@@ -125,6 +125,8 @@ width: 200px;
 
 
  /* nav  css end here heder css start here */
+
+
 .swiper {
   width: 100%;
   height: 100vh;
@@ -138,14 +140,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-.swiper-slide img{
-/* height: 500px;
-width: 500px; */
-object-fit: cover;
-object-position: center;
-}
-.swiper-slide {
 
+.swiper-slide {
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -160,4 +156,58 @@ background-repeat: no-repeat;
 }
  .swiper-slider_3{
   background-image: url(./IMAGES/slider-mainbg-03.png);
+  display: flex;
+  flex-direction: column;
  }
+ .swiper-slider_3_parts{
+  position: relative;
+ }
+ #swiper-slider_3_parts-logo{
+  height: 150px;
+  width: 700px;
+ }
+.swiper-slider_3 .swiper-slider_3_parts img{
+object-fit: contain;
+object-position: center;
+height: 100%;
+width: 100%;
+
+}
+.swiper-slider_3 .swiper-slider_3_parts h1{
+  font-family: cursive;
+font-size: 45px;
+padding-bottom: 10px;
+
+}
+.swiper-slider_3 .swiper-slider_3_parts h1::after{
+  content: "";
+  height: 2px;
+  width: 80px;
+  position: absolute;
+  background-color: rgb(179, 66, 10);
+  top: 35px;
+}
+.swiper-slider_3 .swiper-slider_3_parts h1::before{
+  content: "";
+  height: 2px;
+  width: 80px;
+  position: absolute;
+  background-color: rgb(179, 66, 10);
+  top: 35px;
+  left: -80px;
+}
+.swiper-slider_3 .swiper-slider_3_parts button{
+background-color: red;
+color: white;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 12px;
+padding-bottom: 12px;
+font-size: 16px;
+border: none;
+border-radius: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+  /* heder css end  here */

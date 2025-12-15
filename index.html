@@ -7,12 +7,13 @@
 
     <!-- Swiper CSS CDN -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-
-    <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"rel="stylesheet"/> -->
-
     <!-- External CSS -->
-
     <link rel="stylesheet" href="style.css">
+     <!-- Remix Icon CDN -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 
 
 </head>
@@ -50,12 +51,18 @@
          <!-- Slider Main Container -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide swiper-slider_1 "><img src="./IMAGES/logo.png" alt=""></div>
-      <div class="swiper-slide swiper-slider_2"><h1>slider 2</h1></div>
-      <div class="swiper-slide swiper-slider_3"><h1>slider3</h1></div>
+
+      <div class="swiper-slide swiper-slider_1 "></div>
+
+      <div class="swiper-slide swiper-slider_2"></div>
+
+      <div class="swiper-slide swiper-slider_3">
+                        <div class="swiper-slider_3_parts" id="swiper-slider_3_parts-logo"><img src="./IMAGES/logo.png" alt=""></div>
+                           <div class="swiper-slider_3_parts"> <h1>Explore The World </h1></div>
+                                <div class="swiper-slider_3_parts"> <button>Book Now <i class="ri-arrow-right-long-line"></i></button>  </div>
+      </div>
       
     </div>
-
     <!-- Pagination and Navigation -->
     <div class="swiper-pagination"></div>
     <div class="swiper-button-next"></div>
