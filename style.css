@@ -159,6 +159,75 @@ background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
  }
+ .swiper-slider_1 .swiper-slider_1_content{
+  height: 40vh;
+  width: 50vw;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+  .swiper-slider_1 .swiper-slider_1_content .swiper-slider_1_content_left{
+  height: 100%;
+  width: 50%;
+  /* background-color: chocolate; */
+  text-align: right;
+  padding-right: 30px;
+  }
+  .swiper-slider_1 .swiper-slider_1_content .swiper-slider_1_content_left button{
+  background-color: red;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  font-family: cursive;
+  }
+   .swiper-slider_1 .swiper-slider_1_content .swiper-slider_1_content_left h1{
+         font-size: 40px;
+         padding-right: 10px;
+         padding-bottom: 10px;
+         padding-top: 10px;
+         font-family: 'Times New Roman', Times, serif;
+   }
+     .swiper-slider_1 .swiper-slider_1_content .swiper-slider_1_content_left strong{
+       font-weight: 400;
+       font-size: 25px;
+   }
+     .swiper-slider_1 .swiper-slider_1_content .swiper-slider_1_content_left p{
+        font-size: 18px;
+         padding-bottom: 20px;
+         padding-top: 10px;
+   }
+  .swiper-slider_1 .swiper-slider_1_content .swiper-slider_1_content_right{
+  height: 100%;
+  width: 50%;
+  /* background-color: rgb(8, 75, 109); */
+  border-left: 2px solid white;
+  padding-left: 30px;
+  }
+  .swiper-slider_1 .swiper-slider_1_content .swiper-slider_1_content_right b{
+        font-size: 18px;
+     
+}
+.swiper-slider_1 .swiper-slider_1_content .swiper-slider_1_content_right p{
+        font-size: 18px;
+         padding-bottom: 20px;
+         padding-top: 10px;
+}
+.swiper-slider_1 .swiper-slider_1_content .swiper-slider_1_content_right img{
+      height: 100px;
+      width: 100px;
+      padding-bottom: 20px;
+      object-fit: contain;
+      object-position: center;
+   }
+   .swiper-slider_1 .swiper-slider_1_content .swiper-slider_1_content_right ul{
+ padding-left: 30px;
+   }
  .swiper-slider_3_parts{
   position: relative;
  }
