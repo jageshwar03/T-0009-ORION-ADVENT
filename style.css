@@ -228,6 +228,33 @@ background-repeat: no-repeat;
    .swiper-slider_1 .swiper-slider_1_content .swiper-slider_1_content_right ul{
  padding-left: 30px;
    }
+
+   .swiper-slider_2{
+    flex-direction: column;
+    glyph-orientation-horizontal: 30px;
+   }
+     .swiper-slider_2 p{
+    flex-direction: column;
+    font-size: 30px;
+    font-family: cursive;
+    padding-bottom: 20px;
+   }
+     .swiper-slider_2 h2{
+    flex-direction: column;
+    
+   }
+     .swiper-slider_2 button{
+    flex-direction: column;
+    background-color: red;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+   }
  .swiper-slider_3_parts{
   position: relative;
  }
