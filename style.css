@@ -307,3 +307,73 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
   /* heder css end  here */
+
+
+   /* footer css start  here */
+
+   footer{
+    height: 70vh;
+    width: 100vw;
+    background-color: #33989C;
+    background-image: url(https://plus.unsplash.com/premium_photo-1670260849802-8c228aaf7d24?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+
+   .top_footer{
+   height: 60vh;
+   width: 100vw;
+   background-color: red;
+   display: flex;
+   }
+
+   .top_footer_left{
+     height: 60vh;
+     width: 40vw;
+     background-color: brown;
+   }
+   .advent{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(100, 148, 237, 0.269);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    gap: 20px;
+   }
+   .advent img{
+    height: 50px;
+    width: 200px;
+   }
+   .advent .advent_header{
+     padding-left: 10px;
+   }
+  .advent .advent_para{
+     width: 280px;
+     padding-left: 10px;
+   }
+  .advent .advent_whatsaap{
+    height: 100px;
+    width: 280px;
+    background-color: rgba(0, 255, 255, 0.316);
+   }
+   .advent .advent_whatsaap p{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+   }
+    .advent .advent_whatsaap p .ri-whatsapp-line{
+       color: greenyellow;
+    }
+  .top_footer_right{
+      height: 60vh;
+     width: 60vw;
+     background-color: rgb(14, 204, 14);
+   }
+  .bottom_footer{
+    height: 10vh;
+   width: 100vw;
+   background-color: rgb(1, 1, 3);
+   }
