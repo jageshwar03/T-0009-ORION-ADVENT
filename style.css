@@ -479,10 +479,51 @@ background-color: #000000;
 .top_footer_right .openinghour{
   height: 100%;
   width: 50%;
-  background-color: rgb(90, 3, 77);
+  /* background-color: rgb(90, 3, 77); */
+}
+.top_footer_right .openinghour  .openinghour_top{
+    height: 25%;
+    width: 100%;
+    /* background-color: red; */
+}
+.top_footer_right .openinghour  .openinghour_top h2{
+  font-size: 20px;
+  padding-top: 70px;
+}
+
+ .openinghour_bottum .openinghour_bottum_days-time{
+  height: 75%;
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-right: 100px;
+   margin: 10px;
+   /* height: 20px;
+   width: 100%; */
+ }
+#aaa{
+  height: 5vh;
+  width:90%;
+  /* background-color: blue; */
 }
 .bottom_footer {
   height: 10vh;
   width: 100vw;
-  background-color: rgb(1, 1, 3);
+  background-color: rgb(0, 0, 0);
+  border-top: 1px solid rgb(250, 250, 250);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+#ppp{
+  font-size: 20px;
+  color: #b48f8f;
+}
+.bottom_footer_right a{
+text-decoration: none;
+margin-right: 10px;
 }
