@@ -558,18 +558,46 @@ gap: 20px;
   width: 23%;
   border-radius: 10px;
 }
+#goa:hover{
+  transform: scaleY(1.06);
+  transition: all 2s;
+}
+/* .tour_packages_bottom:hover {
+  transform: scaleY(1.06);
+  transition: all 2s;
+}
+.tour_packages_bottom:hover {
+  transform: scaleY(1.06);
+  transition: all 2s;
+} */
+.tour_packages_bottom:hover #himachal{
+  transform: scaleY(1.06);
+  transition: all 2s;
+}
+/* .tour_packages_bottom:hover .himachal{
+  transform: scaleY(1.06);
+  transition: all 2s;
+} */
+
 .goa{
  background-color: rgb(255, 255, 255);
- 
 }
 .goa .goa_top{
  height: 60%;
  width: 100%;
  /* background-color: red; */
- background-image: url("./IMAGES/goa.png");
+ /* background-image: url("./IMAGES/goa.png");
  background-position: center;
  background-size: cover;
- background-repeat: no-repeat;
+ background-repeat: no-repeat; */
+}
+.goa .goa_top img{
+   height: 100%;
+ width:100%;
+ object-fit: cover;
+ object-position: center;
+ border-radius: 10px;
+ 
 }
 .goa .goa_bottom{
   height: 40%;
